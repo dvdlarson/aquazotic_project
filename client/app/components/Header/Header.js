@@ -1,16 +1,12 @@
-import React from 'react';
+import React from "react";
+import "./Header.css";
 
-import { Link } from 'react-router-dom';
-
-const Header = () => (
-  <header>
-    <Link to="/">Home</Link>
-
-    <nav>
-      <Link to="/helloworld">Hello World</Link>
-    </nav>
-
-    <hr />
+const Header = props => (
+  <header className="header">
+    <h1>Aqua-Zotic</h1>
+    <h2>
+      The Most Premier Exotic Freshwater Aquarium Fish Store In Arizona!
+    </h2>
   </header>
 );
 
